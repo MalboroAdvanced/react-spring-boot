@@ -1,6 +1,77 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none !important;
-} */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+.app {
+  font-family: "Roboto Mono", serif;
+  text-align: center;
+  background-color: #005644;
+  height: 100%;
+  padding: 50px;
+  color: #ffafa2;
+}
+
+.todolist {
+  margin: auto;
+  max-width: 425px;
+}
+
+.title {
+  color: #ffafa2;
+}
+
+.form {
+  align-items: center;
+}
+
+.input {
+  background-color: transparent;
+  border: 2px solid #ffafa2;
+  color: #ffafa2;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 22px;
+  font-family: inherit;
+}
+
+.submit {
+  background-color: transparent;
+  border: 2px solid #ffafa2;
+  color: #ffafa2;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 22px;
+  margin-left: 8px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #ffafa2;
+  border: 2px solid #ffafa2;
+  color: #005644;
+  padding: 10px;
+}
+
+.todo {
+  text-align: left;
+  margin-top: 8px;
+  background-color: transparent;
+  border: 2px solid #ffafa2;
+  color: #ffafa2;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 22px;
+  font-family: inherit;
+}
+.todo-text {
+}
+
+.todo-delete {
+  float: right;
+  padding: 0px 4px;
+  cursor: pointer;
+}
+
+.todo-delete:hover {
+  background-color: #ffafa21c;
+  border-radius: 6px;
+}
