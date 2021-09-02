@@ -1,7 +1,12 @@
 import React from "react";
+import UserComponents from "./components/UserComponents";
 
 function App() {
-  return <div>In dev_1 Branch code</div>;
+  return (
+    <div>
+      <UserComponents />
+    </div>
+  );
 }
 
 export default App;
